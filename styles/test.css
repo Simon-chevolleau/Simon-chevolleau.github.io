@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-
-/* ######## BODY ######## */
-
 body {
     margin: 0;
     font-family: 'Source sans pro', sans-serif;
@@ -14,9 +11,6 @@ body {
     background-position: center;
     background-repeat: repeat;
 }
-
-
-/* ######## SKILLS ######## */
 
 a {
     text-decoration: none;
@@ -59,9 +53,6 @@ a {
     transition: ease;
 }
 
-
-/* ######## HEADER ######## */
-
 header {
     background-image: url(../images/wallpaper.jpg);
     height: 100vh;
@@ -75,9 +66,6 @@ header {
     margin: 0;
     padding: 0;
 }
-
-
-/* ######## NAV ######## */
 
 .topnav {
     position: fixed;
@@ -143,9 +131,6 @@ header {
     }
 }
 
-
-/* ######## HEADER CONTENT ######## */
-
 .header_content {
     font-family: 'Source pro serif', sans-serif;
     position: relative;
@@ -174,9 +159,6 @@ header {
     position: absolute;
     top: 75%;
 }
-
-
-/* ######## HEADER TEXT ######## */
 
 .Header_title {
     text-align: center;
@@ -210,9 +192,6 @@ header {
     text-decoration: underline;
     border-radius: 3px;
 }
-
-
-/* ######## SOCIAL NETWORK ######## */
 
 .link_network {
     display: block;
@@ -249,9 +228,6 @@ header {
     background-color: #85d7dc;
     transition: 0s ease;
 }
-
-
-/* ######## SCROLL ITEMS ######## */
 
 .container_scroll {
     position: absolute;
@@ -332,12 +308,6 @@ header {
     }
 }
 
-
-/* ######## CORE BODY ######## */
-
-
-/* ######## TITLE ######## */
-
 .title {
     background: #cb936d;
     text-transform: uppercase;
@@ -373,9 +343,6 @@ header {
     text-align: center;
 }
 
-
-/* ######## ASIDE ######## */
-
 #aside_position {
     display: flex;
     flex-wrap: wrap;
@@ -393,24 +360,19 @@ header {
     height: 510px;
 }
 
-
-/* ######## PHOTO ######## */
-
 .photo_simon {
     width: 100%;
     position: relative;
     text-align: center;
     height: auto;
-    padding: 10px;
 }
 
 .photo_simon img {
-    border: solid #000 1px;
-    border-radius: 10px;
+    width: 200px;
+    border-radius: 5%;
+    border: 1px grey solid;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 -1px -2px rgba(0, 0, 0, .22);
 }
-
-
-/* ######## PERSONNAL INFORMATIONS ######## */
 
 .aside ul {
     list-style-type: none;
@@ -431,9 +393,6 @@ header {
 .blank_li {
     color: #d3d3d3;
 }
-
-
-/* ######## BUTTON CV ######## */
 
 .donwload_cv {
     text-align: center;
@@ -469,9 +428,6 @@ header {
     clear: both;
 }
 
-
-/* ######## ABOUT ME ######## */
-
 .aboutme {
     padding: 20px;
     position: relative;
@@ -496,9 +452,6 @@ header {
     margin: 20px;
 }
 
-
-/* ######## EDUCATION ######## */
-
 .education {
     position: relative;
     width: 90%;
@@ -507,9 +460,6 @@ header {
     margin-right: 5%;
     margin-top: 30px;
 }
-
-
-/* ######## TIMELINE ######## */
 
 .timeline {
     position: relative;
@@ -635,9 +585,6 @@ header {
     }
 }
 
-
-/* ######## WORK SECTION ######## */
-
 .work_link {
     text-decoration: none;
 }
@@ -686,9 +633,6 @@ header {
     margin-top: 30px;
     text-align: center;
 }
-
-
-/* ###### SKILLS ###### */
 
 .informatic_skill {
     display: flex;
@@ -818,4 +762,8 @@ hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+}
+
+.italic {
+    font-style: italic;
 }
