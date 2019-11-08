@@ -368,10 +368,11 @@ header {
 }
 
 .photo_simon img {
-    width: 200px;
+    width: 150px;
     border-radius: 5%;
     border: 1px grey solid;
     box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 -1px -2px rgba(0, 0, 0, .22);
+
 }
 
 .aside ul {
